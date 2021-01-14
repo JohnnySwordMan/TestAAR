@@ -10,4 +10,8 @@ class TestAAR {
     fun hello() {
         Log.e("gy", "发布aar成功了")
     }
+
+    fun getValue(): Int {
+        return 6
+    }
 }
